@@ -16,7 +16,7 @@ class Circle():
         self.color = color
         self.radius = radius
 
-    def __repr__(self):
+    def __str__(self):
         return f"Circle(x={self.x}, y={self.y}, color={self.color}, radius={self.radius})"
     
     def draw(self):
@@ -49,6 +49,7 @@ while running:
     pygame.display.update()
 
 pygame.quit()
+
 
 
 
